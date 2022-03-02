@@ -1,0 +1,321 @@
+
+section.carouselito div.cita-carousel {
+    position: absolute;
+    left: 5em;
+    top: 5em;
+    background: rgb(255, 255, 255);
+    z-index: 100;
+    opacity: 0.85;
+    max-width: 18em;
+    padding: 1em;
+
+}
+#reune-secundario{
+    display: none;
+} 
+
+@media only screen and (max-width: 767px) {
+    #reune-secundario{
+        display: block;
+        text-align: center;
+    }   
+}
+
+section.carouselito div.cita-carousel p, #reune-secundario {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 1em;
+    color: var(--cafe-oscuro);
+    font-style: bold;
+
+
+}
+
+section.razon div.card {
+    background-color: whitesmoke;
+
+}
+section.razon div.card:hover{
+    background-color: #fcfefd;
+}
+
+section.razon div.card h1 {
+    color: grey;
+    font-size: 1.4em;
+
+}
+
+@media only screen and (max-width: 768px) {
+    section.razon div.card h1 {
+        
+        font-size: 1.2em;
+    
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    #razon-titulo-principal,#titulo-hablemos, #titulo-llamado {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    
+    }
+
+}
+
+section.razon div.card {
+    border: none !important;
+    z-index: 0;
+    cursor: pointer; 
+}
+
+section.razon div.card:hover {
+    border: initial !important;;
+}
+
+section.razon div.card div.centrar {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 12em;
+}
+
+
+@media only screen and (max-width: 768px) {
+    section.razon div.card div.centrar {
+        min-height: 1em;
+        height: 2em;
+    
+    }
+
+}
+
+
+section.razon div.card hr {
+    height: 5px;
+    z-index: 1000;
+    margin: 0em;
+
+}
+
+section.razon div.card hr.tarj-izq {
+    color: var(--verde-azul);
+
+}
+
+section.razon div.card hr.tarj-centr {
+    color: var(--amarillo);
+
+}
+
+section.razon div.card hr.tarj-der {
+    color: var(--cafe-oscuro);
+
+}
+
+section.llamado div.fondo-verde-azul {
+    background-color: var(--verde-azul);
+    text-align: center;
+}
+
+section.llamado div.fondo-verde-azul h1 {
+    color: var(--amarillo);
+    padding-top: 2em;
+    padding-bottom: 1em;
+
+}
+
+section.llamado div.fondo-verde-azul h1 span {
+    color: var(--cafe-oscuro);
+}
+
+section.llamado div.container-fluid {
+    text-align: center;
+    padding: 2em;
+}
+
+section.llamado div.container-fluid p {
+
+    max-width: 43ch;
+    color: var(--cafe-oscuro);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    color: var(--cafe-oscuro);
+    display: inline-block;
+}
+
+section.a2019 {
+    text-align: left;
+    background-color: rgba(0, 161, 118,0.1);
+}
+
+section.a2019 p {
+    max-width: 100%;
+    color: var(--cafe-oscuro);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: var(--cafe-oscuro);
+    display: inline-block;
+
+}
+
+section.convocantes{
+    background-color: var(--amarillo);
+}
+section.convocantes div.row p span{
+color: var(--verde-azul);
+font-weight: bold;
+}
+section.convocantes div.container-fluid{
+    padding: 3em;
+}
+section.convocantes div.row p, section.convocantes div.row ul {
+    list-style-type: circle;
+    
+}
+section.convocantes div.row p, section.convocantes div.row ul li{
+  
+    color: var(--cafe-oscuro);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--cafe-oscuro);
+    display: inline-block;
+    
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+    section.convocantes div.row p, section.convocantes div.row ul li{
+        display: block;
+    }
+
+}
+
+section.convocantes div.row ul li:hover {
+    color: var(--verde-azul);
+    font-weight: bolder;
+    text-decoration: underline;
+    cursor: pointer; 
+    
+}
+
+#titulo-hablemos {
+    padding-bottom: 1em;
+}
+
+section.hablemos div.container-fluid  {
+    text-align: center;
+}
+
+section.hablemos div.container-fluid p {
+
+    max-width: 43ch;
+    color: var(--cafe-oscuro);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--cafe-oscuro);
+    display: inline-block;
+    text-align: left;
+}
+section.recursos div{
+    text-align: center;
+}
+
+section.recursos .card-img, .card-img-bottom, .card-img-top {
+    object-fit: scale-down;
+    width: auto!important;
+}
+
+section.recursos h2 {
+    
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+section.prensa div.prensa{
+    background-color: var(--verde-azul);
+    
+}
+
+section.prensa div.prensa h1{
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+section.prensa h1{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: var(--verde-azul);
+
+}
+
+section.prensa  ul{
+    list-style-type: none;
+}
+
+section.contacto div.contiene-burbuja{
+    position: relative;
+}
+
+section.contacto div.barra-amarilla{
+    height: 6em;
+    
+    background-color: var(--amarillo);
+    margin-bottom: 6em;
+}
+
+section.contacto div.burbuja-per-se{
+    width: 20em;
+    position: absolute;
+    top: 2em;
+    right: 10em;
+}
+
+@media only screen and (max-width: 992px) {
+    section.contacto div.burbuja-per-se{
+        top: 1.5em;
+        right: 1.5em;
+    }
+
+}
+@media only screen and (max-width: 578px) {
+    section.contacto div.burbuja-per-se{
+        top: 1em;
+        right: 1em;
+    }
+
+}
+
+@media only screen and (max-width: 361px) {
+    section.contacto div.burbuja-per-se{
+        top: 0.4em;
+        right: 0.4em;
+    }
+}
+
+section.contacto div.burbuja-per-se img {
+    width: inherit;
+    object-fit: scale-down;
+}
+
+section.contacto p {
+    text-align: center;
+}
+
+section.contacto a {
+    font-weight: bold;
+    
+}
+
+section.contacto p.correo{
+    margin-bottom: 2em;
+    margin-top: 2em;
+}

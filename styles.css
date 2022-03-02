@@ -1,0 +1,112 @@
+:root {
+    --verde-azul: #00A176;
+    --cafe-oscuro: #30160D;
+    --amarillo: #FDD93F;
+    --cafe-claro: #90441D;
+    --gris-fondo:rgba(0,0,0,.55);
+}
+body {
+    background-color: #fcfefd;
+}
+body div.container{
+    background-color: white;
+}
+
+body a{
+    color: var(--verde-azul);
+    text-decoration: none;
+}
+
+body a:hover{
+    color: var(--cafe-oscuro);
+}
+
+section {
+    padding-top: 2em;
+}
+
+h1 {
+    color: var(--verde-azul);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.4em;
+}
+img.video-thumbnail:hover{
+    cursor: pointer;
+}
+
+img.video-thumbnail, iframe.vid-embed{
+    width: 560px;
+    height: 320px;
+}
+@media only screen and (max-width: 992px) {
+    img.video-thumbnail, iframe.vid-embed{
+        width: 400px;
+        height: 229px;
+    }
+}
+@media only screen and (max-width: 578px) {
+    img.video-thumbnail, iframe.vid-embed{
+        width: 360px;
+        height: 206px;
+    }
+}
+@media only screen and (max-width: 361px) {
+    img.video-thumbnail, iframe.vid-embed{
+        width: 320px;
+        height: 200px;
+    }
+}
+
+img.logo-nav {
+    max-height: 7em;
+}
+
+img.nav-envelope {
+    height: 1.5em;
+    filter: invert(46%) sepia(63%) saturate(4453%) hue-rotate(140deg) brightness(93%) contrast(101%);
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.nav-link.active {
+    color: var(--verde-azul) !important;
+}
+
+.nav-link:hover {
+    color: var(--verde-azul) !important;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        max-width: 800px!important;
+    }
+}
+
+section.fondo div{
+    background-color: lightcyan;
+}
+
+section.fondo div p{
+    color: var(--gris-fondo);
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}

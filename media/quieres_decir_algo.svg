@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="142.64766mm"
+   height="59.886681mm"
+   viewBox="0 0 142.64766 59.886682"
+   version="1.1"
+   id="svg11084"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs11081" />
+  <g
+     id="layer1"
+     transform="translate(69.225341,29.661666)">
+    <g
+       id="g10810"
+       transform="translate(-98.838776,-107.24757)">
+      <g
+         id="g65"
+         transform="matrix(0.26458333,0,0,0.1653303,49.985735,80.574162)">
+        <g
+           id="g11"
+           style="fill:#00a176;fill-opacity:1"
+           transform="matrix(1.3314025,0,0,1,-76.997669,-36.357473)">
+          <path
+             d="M 391.689,18.283 H 13.25 C 5.931,18.283 0,24.218 0,31.535 v 242.48 c 0,7.32 5.931,13.252 13.25,13.252 h 265.61719 l -13.68812,86.137 c 0,0 5.83192,4.6782 11.31868,7.10347 L 334.715,287.267 h 56.975 c 7.32,0 13.252,-5.932 13.252,-13.252 V 31.534 c 10e-4,-7.317 -5.932,-13.251 -13.253,-13.251 z"
+             id="path9"
+             style="fill:#00a176;fill-opacity:1" />
+        </g>
+        <g
+           id="g13" />
+        <g
+           id="g15" />
+        <g
+           id="g17" />
+        <g
+           id="g19" />
+        <g
+           id="g21" />
+        <g
+           id="g23" />
+        <g
+           id="g25" />
+        <g
+           id="g27" />
+        <g
+           id="g29" />
+        <g
+           id="g31" />
+        <g
+           id="g33" />
+        <g
+           id="g35" />
+        <g
+           id="g37" />
+        <g
+           id="g39" />
+        <g
+           id="g41" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:13.0528px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="41.253155"
+         y="103.77599"
+         id="text1543"><tspan
+           id="tspan1541"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.0528px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#ffffff;stroke-width:0.264583"
+           x="41.253155"
+           y="103.77599">¿Quieres decir algo?</tspan></text>
+    </g>
+  </g>
+</svg>
